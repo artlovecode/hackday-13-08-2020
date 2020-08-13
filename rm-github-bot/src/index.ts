@@ -6,7 +6,7 @@ export = (app: Application) => {
     await context.github.issues.createComment(issueComment)
   })
 
-  app.on('push', async context => {
+  app.on('*', async context => {
     console.log(context)
   })
   // For more information on building apps:
