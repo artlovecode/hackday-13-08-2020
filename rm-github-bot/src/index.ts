@@ -7,7 +7,7 @@ export = (app: Application) => {
   })
 
   app.on('*', async context => {
-    console.log(context)
+    console.log(context.name)
   })
   // For more information on building apps:
   // https://probot.github.io/docs/
