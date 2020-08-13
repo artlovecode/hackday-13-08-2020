@@ -23,7 +23,7 @@ default_events:
 # - fork
 # - gollum
 # - issue_comment
-- issues
+# - issues
 # - label
 # - milestone
 # - member
@@ -39,10 +39,10 @@ default_events:
 # - pull_request_review
 # - pull_request_review_comment
 - push
-# - release
-# - repository
+- release
+- repository
 # - repository_import
-# - status
+- status
 # - team
 # - team_add
 # - watch
